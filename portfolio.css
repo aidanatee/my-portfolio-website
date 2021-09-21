@@ -1,0 +1,53 @@
+
+body {
+   font-family: 'Montserrat', sans-serif;
+}
+
+#main-page-logo {
+    color: #C8332B;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu-items li a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AAAAAA;
+}
+
+.page-container {
+    width: 985px;
+    margin: 40px auto;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer, header, .social-icons  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    padding-left: 0px;
+}
+
+.social-icons li {
+    padding-right: 24px;
+}
